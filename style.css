@@ -1,0 +1,122 @@
+.abc{
+    justify-content: left !important;
+    
+}
+
+.navbar{
+
+    background-color: rgb(67, 67, 124) !important;
+}
+
+.img1{
+    margin: auto;
+
+}
+
+.button{
+    background-color: gold;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.span1{
+    margin-left: 3px;
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+body{
+    
+    background-color: rgba(6, 7, 7, 0.189);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    font-display: inherit;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.nav-link{
+    color:aliceblue !important;
+}
+
+.abc{
+display: flex;
+justify-content: flex-end;
+/* align-items: flex-end; */
+display: inline-block;
+
+}
+
+
+.box{
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 2px solid aliceblue;
+    background-color: rgb(67, 67, 124);
+    font-size: 20px;
+    border-top: none;
+    border-bottom: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    
+}
+
+.abc:hover .aa{
+
+    visibility: visible;
+
+}
+
+.abc {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+.abc .aa{
+    visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+/* .span12{
+    display: flex;
+    justify-content: space-around;
+    
+} */
